@@ -1,0 +1,37 @@
+// 定制iView主题
+@import '~iview/src/styles/index.less';
+@import 'variables';
+
+// 覆盖 iView
+@primary-color: @blue;
+@info-color: @cyan;
+@success-color: @green;
+@warning-color: @yellow;
+@error-color: @red;
+
+@text-color: @gray-900;
+
+@layout-p-x: 2rem;
+
+@layout-body-background: @light;
+@layout-header-padding: 0 @layout-p-x;
+@layout-header-height: 3rem;
+@layout-header-background: white;
+@layout-sider-background: @dark;
+@layout-footer-background: @gray-900;
+@layout-footer-padding: 1rem @layout-p-x;
+
+@menu-dark-title: @dark;
+@menu-dark-active-bg: @gray-700;
+
+.ivu-input[readonly] {
+    border-color: transparent;
+}
+
+.ivu-table-default .ivu-table-cell {
+    .p-x(1rem);
+}
+
+.ivu-table-small .ivu-table-cell {
+    .p-x(0.5rem);
+}

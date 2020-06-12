@@ -1,0 +1,68 @@
+// bootstrap 变量
+
+@gray-100: #f8f9fa;
+@gray-200: #e9ecef;
+@gray-300: #dee2e6;
+@gray-400: #ced4da;
+@gray-500: #adb5bd;
+@gray-600: #6c757d;
+@gray-700: #495057;
+@gray-800: #343a40;
+@gray-900: #212529;
+
+@blue: #007bff;
+@indigo: #6610f2;
+@purple: #6f42c1;
+@pink: #e83e8c;
+@red: #dc3545;
+@orange: #fd7e14;
+@yellow: #ffc107;
+@green: #28a745;
+@teal: #20c997;
+@cyan: #17a2b8;
+@gold: #E3D0A8;
+
+@primary: @gold;
+@secondary: @gray-600;
+@success: @green;
+@info: @cyan;
+@warning: @yellow;
+@danger: @red;
+@light: @gray-100;
+@dark: @gray-800;
+
+// mixin
+
+.m-y(@v) {
+    margin-top: @v;
+    margin-bottom: @v;
+}
+
+.m-x(@v) {
+    margin-left: @v;
+    margin-right: @v;
+}
+
+.p-y(@v) {
+    padding-top: @v;
+    padding-bottom: @v;
+}
+
+.p-x(@v) {
+    padding-left: @v;
+    padding-right: @v;
+}
+
+.radius-x(@x; @radius: 0.25rem) {
+    border-top-@{x}-radius: @radius;
+    border-bottom-@{x}-radius: @radius;
+}
+
+.radius-y(@y; @radius: 0.25rem) {
+    border-@{y}-left-radius: @radius;
+    border-@{y}-right-radius: @radius;
+}
+
+.border(@color: @gray-200) {
+    border: 1px solid @color;
+}

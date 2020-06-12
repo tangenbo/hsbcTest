@@ -1,0 +1,215 @@
+.editModal .ivu-modal-wrap, .editModal .ivu-modal-mask {
+  z-index: 900 !important;
+}
+
+.editModal .ivu-modal {
+  max-width: 90%;
+  min-height: 600px;
+  top: 30px;
+  width: 1000px !important;
+
+  .ivu-modal-body {
+    overflow: visible;
+    text-align: center;
+
+    .centerAlign {
+      text-align: center;
+    }
+
+    .ivu-tabs-tabpane {
+      width: 100%;
+
+      .ivu-input {
+        width: 100%;
+      }
+    }
+
+    .ivu-page-options {
+      .ivu-select {
+        width: auto;
+      }
+    }
+  }
+
+  .ivu-upload {
+    display: inline-block;
+  }
+
+  form {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+    button {
+      font-size: 14px;
+    }
+
+    .ivu-form-item-label {
+      font-size: 14px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .ivu-form-item {
+    margin-bottom: 5px;
+
+    .ivu-color-picker-confirm-color {
+      width: 90px;
+    }
+
+    .ivu-select-selected-value, input {
+      font-size: 13px;
+    }
+
+    .ivu-row {
+      .ivu-col {
+        text-align: center;
+      }
+
+      input, .ivu-select {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .ivu-form-item-content > .ivu-input-wrapper {
+    display: inline-block;
+
+    input, textarea {
+      width: 200px;
+    }
+  }
+
+  .ivu-select {
+    width: 200px;
+  }
+
+  .ivu-form-item-error-tip {
+    position: relative;
+  }
+
+  .ivu-select-disabled span {
+    color: #444;
+  }
+
+  .ivu-modal-content {
+    overflow: visible;
+    height: 100% !important;
+    width: auto !important;
+  }
+}
+
+.ivu-btn.ivu-btn-loading:before {
+  display: none;
+}
+
+.ivu-btn.ivu-btn-loading {
+  pointer-events: auto;
+  position: static;
+
+  i {
+    display: none;
+  }
+
+  span {
+    margin-left: 0;
+  }
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+th {
+  font-weight: bold;
+}
+
+.ivu-table-cell {
+  font-size: 14px;
+}
+
+.warningRow td {
+  background-color: orange;
+}
+
+.ivu-form-item {
+
+  button {
+    margin-right: 5px;
+  }
+}
+
+.ivu-form-inline .ivu-form-item {
+  vertical-align: middle;
+}
+
+.ivu-dropdown-item {
+  text-align: center;
+}
+
+.clearfix {
+  .float-right {
+    padding: 0.75rem 1rem;
+  }
+
+  .float-left {
+    padding-top: 5px;
+  }
+}
+
+.page {
+  .ivu-radio-group {
+    position: absolute;
+    z-index: 100;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    .ivu-radio-wrapper {
+      line-height: 25px;
+      height: 25px;
+    }
+
+    .ivu-radio-wrapper-checked {
+      background-color: #6ce26c;
+      color: black;
+    }
+  }
+
+  .ivu-table-wrapper {
+    overflow: visible;
+
+    .ivu-table-cell {
+      a {
+        color: blue;
+      }
+
+      .ivu-select {
+
+        .ivu-select-selection {
+          border: 0;
+          background-color: rgba(0, 0, 0, 0);
+          text-align: -webkit-center;
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
+          .ivu-select-selected-value {
+            padding: 0 5px;
+            background-color: #55bfbf;
+            border-radius: 3px;
+            color: white;
+            font-size: 14px;
+            width: fit-content;
+            text-align: center;
+          }
+
+          .ivu-select-arrow {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

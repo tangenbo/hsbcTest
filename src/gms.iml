@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/general" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/install" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ssh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib5" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../properties" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../build/general" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../build/install" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../build/server" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../build/ssh" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../build/tools" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../lib" />
+          <root url="file://$MODULE_DIR$/../db/mysql-connector-java/mysql-connector-java-5.1.18/src" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/jersey-bundle-1.17-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/jetty-all-9.2.3.v20140905-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/jersey-multipart-1.17-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/mimepull-1.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/freemarker-2.3.21-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/freemarker.src-2.3.21.zip!/source/src/examples/struts-webapp/WEB-INF/classes" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/freemarker.src-2.3.21.zip!/source/src/examples/webapp1/WEB-INF/classes" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/freemarker.src-2.3.21.zip!/source/src/examples/webapp2/WEB-INF/classes" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/freemarker.src-2.3.21.zip!/source/src/main/java" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/freemarker.src-2.3.21.zip!/source/src/test/java" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/jetty-all-9.2.10.v20150310-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../3rdparty/jetty-proxy-9.2.10.v20150310-sources.jar!/" />
+          <root url="file://$MODULE_DIR$/../../3rdParty/jradius" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../metaData" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: software.reinvent:headless-chrome:0.3.6">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/software/reinvent/headless-chrome/0.3.6/headless-chrome-0.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/software/reinvent/headless-chrome/0.3.6/headless-chrome-0.3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/software/reinvent/headless-chrome/0.3.6/headless-chrome-0.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
