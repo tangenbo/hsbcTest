@@ -41,7 +41,7 @@ let locale = {
         sys_mgmt: {title: '系统管理'},
         add_trade: {
             modalTitle: '交易',
-            title: '交易列表',
+            title: '添加交易',
             columns: {
                 id: 'ID',
                 tradeDate: '交易日期',

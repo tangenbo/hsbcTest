@@ -1,5 +1,7 @@
 create database hsbc;
 
+use hsbc;
+
 create table trade (
   id bigint(20) not null auto_increment,
   trade_date bigint(20) not null,

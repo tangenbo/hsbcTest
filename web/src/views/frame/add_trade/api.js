@@ -36,7 +36,6 @@ export const columnLocalePath = 'page.' + modal + '.columns';
 
 export default {
     getCustomOptions: function () {
-        var vm = this;
         return {
             modal: modal,
             addUrl: '/rest/trade',

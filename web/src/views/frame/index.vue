@@ -60,27 +60,6 @@
                             </div>
                         </template>
 
-                        <Badge :count="totalCount">
-                            <Dropdown trigger="click">
-                                <a href="javascript:void(0)" >
-                                    <Icon type="md-notifications-outline" size="26" color="#000" />
-                                </a>
-                                <DropdownMenu slot="list">
-                                    <DropdownItem v-for="item in unReadList">
-                                        <router-link :to="item.pageUrl">{{$t(item.pageName)}}</router-link>
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </Dropdown>
-                        </Badge>
-
-
-                        <!-- 用户资料 -->
-                        <Dropdown class="mr-2" trigger="click">
-                            <Button type="text" size="small">
-                                {{ full_name }}
-                                <Icon type="ios-arrow-down"/>
-                            </Button>
-                        </Dropdown>
                         <!-- 切换语言 -->
                         <Dropdown trigger="click" @on-click="toggleLang">
                             <Button type="text" size="small">
