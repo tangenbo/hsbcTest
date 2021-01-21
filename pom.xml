@@ -9,7 +9,7 @@
 
     <properties>
         <!-- dependency versions -->
-        <dep.jackson>2.9.10</dep.jackson>
+        <dep.jackson>2.12.1</dep.jackson>
         <dep.guice>4.0</dep.guice>
         <dep.jetty>9.4.26.v20200117</dep.jetty>
         <dep.jersey>1.19</dep.jersey>
